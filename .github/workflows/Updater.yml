@@ -1,0 +1,41 @@
+name: Plugin Updater
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete workflow runs
+        uses: Mattraks/delete-workflow-runs@v2
+        with:
+          token: ${{ github.token }}
+          repository: ${{ github.repository }}
+          retain_days: 1
+          keep_minimum_runs: 6
+
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download pluginmaster.json files
+        run: |
+          wget -O Whiskers.json https://raw.githubusercontent.com/Meowchestra/Whiskers/main/data/pluginmaster.json
+          wget -O ToyBox.json https://raw.githubusercontent.com/Meowchestra/ToyBox/main/data/pluginmaster.json
+
+      - name: Combine JSON files
+        run: |
+          mv repo.json repo.old
+          cat Whiskers.json > repo.json
+          sed -i '$ d' repo.json
+          echo "," >> repo.json
+          tail -n +2 ToyBox.json >> repo.json
+
+      - name: Commit latest build
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update Repo"
+          file_pattern: "./repo.json"
