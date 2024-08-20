@@ -28,7 +28,9 @@ jobs:
 
       - name: Combine JSON files
         run: |
-          mv repo.json repo.old
+          if [ -f repo.json ]; then
+            mv repo.json repo.old
+          fi
           cat Whiskers.json > repo.json
           sed -i '$ d' repo.json
           echo "," >> repo.json
