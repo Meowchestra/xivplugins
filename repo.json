@@ -20,10 +20,10 @@
         "IsHide": "false",
         "IsTestingExclusive": "false",
         "AcceptsFeedback": "false",
-        "LastUpdate": "1724305963",
-        "DownloadLinkInstall": "https://github.com/Meowchestra/Whiskers/releases/download/0.0.1.33/latest.zip",
-        "DownloadLinkTesting": "https://github.com/Meowchestra/Whiskers/releases/download/0.0.1.33/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/Meowchestra/Whiskers/releases/download/0.0.1.33/latest.zip"
+        "LastUpdate": "1729479334",
+        "DownloadLinkInstall": "https://github.com/Meowchestra/Whiskers/releases/download/0.0.1.34/latest.zip",
+        "DownloadLinkTesting": "https://github.com/Meowchestra/Whiskers/releases/download/0.0.1.34/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/Meowchestra/Whiskers/releases/download/0.0.1.34/latest.zip"
     }
 ,
     {
@@ -52,7 +52,7 @@
         "Punchline": "Frontend addon for Whiskers.",
         "IsHide": "false",
         "IsTestingExclusive": "false",
-        "LastUpdate": "1726366800",
+        "LastUpdate": "1729479767",
         "DownloadLinkInstall": "https://github.com/Meowchestra/ToyBox/releases/download/0.0.2.11/latest.zip",
         "DownloadLinkTesting": "https://github.com/Meowchestra/ToyBox/releases/download/0.0.2.11/latest.zip",
         "DownloadLinkUpdate": "https://github.com/Meowchestra/ToyBox/releases/download/0.0.2.11/latest.zip"
