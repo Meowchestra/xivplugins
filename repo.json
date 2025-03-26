@@ -3,7 +3,7 @@
         "Author": "GiR-Zippo, Meowchestra, MoogleTroupe",
         "Name": "Whiskers",
         "InternalName": "Whiskers",
-        "AssemblyVersion": "0.0.1.44",
+        "AssemblyVersion": "0.0.1.45",
         "Description": "MeowMusic companion for enhanced functionality.",
         "ApplicableVersion": "any",
         "Tags": [
@@ -20,17 +20,17 @@
         "IsHide": "false",
         "IsTestingExclusive": "false",
         "AcceptsFeedback": "false",
-        "LastUpdate": "1742538328",
-        "DownloadLinkInstall": "https://github.com/Meowchestra/Whiskers/releases/download/0.0.1.44/latest.zip",
-        "DownloadLinkTesting": "https://github.com/Meowchestra/Whiskers/releases/download/0.0.1.44/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/Meowchestra/Whiskers/releases/download/0.0.1.44/latest.zip"
+        "LastUpdate": "1742956064",
+        "DownloadLinkInstall": "https://github.com/Meowchestra/Whiskers/releases/download/0.0.1.45/latest.zip",
+        "DownloadLinkTesting": "https://github.com/Meowchestra/Whiskers/releases/download/0.0.1.45/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/Meowchestra/Whiskers/releases/download/0.0.1.45/latest.zip"
     }
 ,
     {
         "Author": "GiR-Zippo, Meowchestra",
         "Name": "ToyBox",
         "InternalName": "ToyBox",
-        "AssemblyVersion": "0.0.2.15",
+        "AssemblyVersion": "0.0.2.17",
         "Description": "Companion plugin addon for Whiskers that extends controls as an alternative to BardToolbox.",
         "ApplicableVersion": "any",
         "RepoUrl": "https://github.com/Meowchestra/ToyBox",
@@ -52,9 +52,9 @@
         "Punchline": "Frontend addon for Whiskers.",
         "IsHide": "false",
         "IsTestingExclusive": "false",
-        "LastUpdate": "1736975091",
-        "DownloadLinkInstall": "https://github.com/Meowchestra/ToyBox/releases/download/0.0.2.15/latest.zip",
-        "DownloadLinkTesting": "https://github.com/Meowchestra/ToyBox/releases/download/0.0.2.15/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/Meowchestra/ToyBox/releases/download/0.0.2.15/latest.zip"
+        "LastUpdate": "1742956059",
+        "DownloadLinkInstall": "https://github.com/Meowchestra/ToyBox/releases/download/0.0.2.17/latest.zip",
+        "DownloadLinkTesting": "https://github.com/Meowchestra/ToyBox/releases/download/0.0.2.17/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/Meowchestra/ToyBox/releases/download/0.0.2.17/latest.zip"
     }
 ]
